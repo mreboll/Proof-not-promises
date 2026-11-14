@@ -127,7 +127,7 @@ def funnel(report: Report) -> list[dict[str, str]]:
 
 
 def anchor(path: str) -> str:
-    """Id HTML estable para un fichero (enlaces directos desde la landing): lo que no es letra o dígito pasa a '-'."""
+    """Id HTML estable para un fichero (enlaces directos a cada fichero): lo que no es letra o dígito pasa a '-'."""
     return re.sub(r"[^A-Za-z0-9]+", "-", path).strip("-")
 
 

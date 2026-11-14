@@ -1,11 +1,9 @@
-# CI en CRACI (bounty "Best use of CRACI"): cada build registra qué entra en el software
-# (dependencias de Python y, más adelante, paquetes NuGet de la sonda). Encaja con la tesis:
-# no se aprueba nada sin evidencia, tampoco nuestras propias dependencias.
+# CI: tests unitarios (sin claves ni red: los LLM se simulan) y el pipeline con la evidencia grabada en fixtures/.
 name: ci
 
 on:
   push:
-    branches: [main, "a/**", "b/**"]
+    branches: [main]
   pull_request:
 
 permissions:
@@ -13,7 +11,7 @@ permissions:
 
 jobs:
   python-tests:
-    runs-on: craci
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

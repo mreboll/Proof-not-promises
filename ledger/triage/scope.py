@@ -56,7 +56,7 @@ Write the justification in English, in one sentence."""
 def load_issue_text(settings: Settings, issue_id: str) -> str:
     path = settings.issues_dir / f"{issue_id}.md"
     if not path.exists():
-        raise IssueNotFound(f"No existe {path}. Descarga el issue a issues/{issue_id}.md (PERSONA-B paso 0).")
+        raise IssueNotFound(f"No existe {path}. Descarga el issue a issues/{issue_id}.md (see README, 'Try it').")
     return path.read_text(encoding="utf-8")
 
 

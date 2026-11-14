@@ -1,4 +1,4 @@
-"""Matriz de veredictos (ARQUITECTURA §2-§3, PERSONA-B paso 4). Un test por fila, más los huecos de la tabla."""
+"""Matriz de veredictos (ARQUITECTURA §2-§3). Un test por fila, más los huecos de la tabla."""
 
 from __future__ import annotations
 

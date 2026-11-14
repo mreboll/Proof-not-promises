@@ -74,7 +74,6 @@ python -m ledger.trust record-change out/report-2283.json --owner "Full Name"   
 | [Decision log](docs/decision-log.md) | Why static rules, isolated processes, issue-only tests, mutants, model diversity |
 | [Lessons log](docs/lessons-log.md) | Every real AI failure we hit, and the funnel layer that caught it |
 | [Architecture](docs/ARQUITECTURA.md) | The full design (Spanish) |
-| Bounty write-ups | [Gemini & Nemotron](docs/bounty-forms.md) · [Modal](docs/bounty-form-modal.md) |
 | Real reports | [demo/index.html](demo/index.html) (HTML, open locally) · recorded runs: `fixtures/report_2283_dotnet.json` (local), `fixtures/report_2283_modal.json` (Modal) |
 
 ## Honest limits
@@ -92,4 +91,3 @@ the demo repeatable, not the models.
 | **Javier de Paz Figueras** | Cross-examination (Prosecutor, Defender, mutants) and sign-off report; Concept Card, decision log and measured trade-offs |
 | **Marco García López** | Independent change tests and Modal sandboxes; lessons log, demo video and live pitch |
 
-Internal team notes (Spanish): [docs/TEAM.md](docs/TEAM.md), [docs/PERSONA-A.md](docs/PERSONA-A.md), [docs/PERSONA-B.md](docs/PERSONA-B.md).

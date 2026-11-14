@@ -291,7 +291,7 @@ def test_write_report_writes_html_and_json(tmp_path):
 
 
 def test_sections_have_stable_anchors_for_deep_links(html):
-    """La landing enlaza a la zona exacta del informe (evidencia, interrogatorio, firma...), no al principio."""
+    """Los enlaces llevan a la zona exacta del informe (evidencia, interrogatorio, firma...), no al principio."""
     for anchor in ("funnel", "must-read", "files", "evidence", "crossexam", "models", "trust", "signoff"):
         assert f'id="{anchor}"' in html
 
