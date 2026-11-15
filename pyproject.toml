@@ -1,6 +1,7 @@
 [project]
 name = "tieto-ledger"
 version = "0.1.0"
+license = "MIT"
 description = "Risk-Scoped Evidence Ledger: AI review of AI-written code, backed by executable evidence."
 requires-python = ">=3.11"
 dependencies = [
