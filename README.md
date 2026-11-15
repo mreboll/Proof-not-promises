@@ -73,7 +73,6 @@ python -m ledger.trust record-change out/report-2283.json --owner "Full Name"   
 | [Measured numbers](docs/numeros-evidencia.md) | Every timing and result, with its source |
 | [Decision log](docs/decision-log.md) | Why static rules, isolated processes, issue-only tests, mutants, model diversity |
 | [Lessons log](docs/lessons-log.md) | Every real AI failure we hit, and the funnel layer that caught it |
-| [Architecture](docs/ARQUITECTURA.md) | The full design (Spanish) |
 | Real reports | [demo/index.html](demo/index.html) (HTML, open locally) · recorded runs: `fixtures/report_2283_dotnet.json` (local), `fixtures/report_2283_modal.json` (Modal) |
 
 ## Honest limits

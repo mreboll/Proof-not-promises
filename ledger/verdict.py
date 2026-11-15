@@ -1,4 +1,4 @@
-"""Matriz de veredictos (ARQUITECTURA §2-§3). Función pura: misma entrada, mismo veredicto.
+"""Matriz de veredictos (docs/concept-card.md, "Decision matrix"). Función pura: misma entrada, mismo veredicto.
 
 | Fila | Alcance | Riesgo   | Evidencia e interrogatorio                    | Veredicto |
 |------|---------|----------|-----------------------------------------------|-----------|

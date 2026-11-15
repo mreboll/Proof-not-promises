@@ -1,7 +1,7 @@
 """Informe HTML (B): estático, imprimible y autocontenido (sin CDN ni JS: se abre sin red en la demo).
 
 Orden pensado para quien firma: primero la decisión y SOLO lo que tiene que leer (amarillo y rojo);
-después la evidencia que respalda lo verde, el interrogatorio y el bloque de firma (ARQUITECTURA §3).
+después la evidencia que respalda lo verde, el interrogatorio y el bloque de firma (docs/concept-card.md, "Decision matrix").
 Junto al HTML se escribe el JSON del `Report`, para procesarlo a máquina.
 """
 
